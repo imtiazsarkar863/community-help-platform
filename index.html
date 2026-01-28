@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Community Help Platform</title>
+</head>
+<body>
+  <h2>Community Help Platform</h2>
+
+  <button onclick="signIn()">Sign in with Google</button>
+  <br><br>
+
+  <input id="title" placeholder="What do you need?" />
+  <button onclick="addRequest()">Post Request</button>
+
+  <ul id="requests"></ul>
+
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
